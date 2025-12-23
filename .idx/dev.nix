@@ -35,6 +35,7 @@
           --shm-size 1g -d \
           --cap-add=SYS_ADMIN \
           -p 8080:10000 \
+          -e VNC_PASSWD=2004 \
           -e PORT=10000 \
           -e AUDIO_PORT=1699 \
           -e WEBSOCKIFY_PORT=6900 \
